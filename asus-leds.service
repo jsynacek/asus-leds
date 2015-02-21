@@ -1,0 +1,5 @@
+[Unit]
+Description=Asus Zenbook Keyboard brightness daemon
+
+[Service]
+ExecStart=/home/jsynacek/.local/bin/guile -s /home/jsynacek/devel/asus-leds-server.scm
