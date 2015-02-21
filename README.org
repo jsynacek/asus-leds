@@ -1,0 +1,15 @@
+* Running
+
+First, start a server:
+
+$ guile -s asus-leds-server.scm
+
+Alternatively, systemctl can be used to start the system service:
+
+$ systemctl start asus-leds
+
+
+Use the client:
+
+$ sh br.sh up
+$ sh br.sh down
